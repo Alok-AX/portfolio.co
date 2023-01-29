@@ -264,7 +264,12 @@ a:focus {
     .wrapper .content {
         padding: 15px;
     }
+    .header .content-inner{
+        background-position: center !important;
+        background-size: cover !important;
+    }
 }
+
 
 
 /**********************************/
