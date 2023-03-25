@@ -14,6 +14,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <link rel='stylesheet' href='https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css'>
+
     <style>
         :root {
             /* --primary-color: #CF1F1F; */
@@ -94,6 +97,8 @@
     -o-transition: 0.3s;
     transition: 0.3s;
 }
+.gallery-img-wrap{ margin-bottom: 20px; height: 300px; cursor: pointer;}
+.gallery-img-wrap img{ height: 100%; object-fit: cover;}
     </style>
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
 </head>
@@ -363,132 +368,36 @@
                             <div class="space-border"></div>
                         </div>
                     </div>
-                    <div id="gallery" class="row sequence">
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project1.png" class="gallery-card-item image-popup" title="project 1.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project1.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project2.png" class="gallery-card-item image-popup" title="project 2.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project2.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project3.png" class="gallery-card-item image-popup" title="project 3.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project3.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project4.png" class="gallery-card-item image-popup" title="project 4.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project4.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project5.png" class="gallery-card-item image-popup" title="project 5.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project5.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project6.png" class="gallery-card-item image-popup" title="project 6.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project6.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project7.png" class="gallery-card-item image-popup" title="project img 7.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project7.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project8.png" class="gallery-card-item image-popup" title="project img 8.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>
-                                           
-                                        </div>
-                                        <img src="images/projects/project8.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="card_modal wow">
-                                <a href="images/projects/project9.png" class="gallery-card-item image-popup" title="project 9.">
-                                    <figure>
-                                        <div class="overlay">
-                                            <i class="fa-solid fa-eye"></i>                                           
-                                        </div>
-                                        <img src="images/projects/project9.png" alt="Image" class="img-fluid">
-                                    </figure>
-                                </a>
-                            </div>
-                          
-                        </div>
+                    <div id="lightgallery" class="row sequence">
+
+                        <a data-responsive="images/projects/project1.png 375, images/projects/project1.png 480, images/projects/project1.png 800,"  data-src="images/projects/project1.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project1.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project3.png 375, images/projects/project2.png 480, images/projects/project2.png 800,"  data-src="images/projects/project2.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project2.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project3.png 375, images/projects/project3.png 480, images/projects/project3.png 800,"  data-src="images/projects/project3.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project3.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project4.png 375, images/projects/project4.png 480, images/projects/project4.png 800,"  data-src="images/projects/project4.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project4.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project5.png 375, images/projects/project5.png 480, images/projects/project5.png 800,"  data-src="images/projects/project5.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project5.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project6.png 375, images/projects/project6.png 480, images/projects/project6.png 800,"  data-src="images/projects/project6.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project6.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project8.png 375, images/projects/project8.png 480, images/projects/project8.png 800,"  data-src="images/projects/project8.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project8.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project9.png 375, images/projects/project9.png 480, images/projects/project9.png 800,"  data-src="images/projects/project9.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project9.png" alt="Image" class="w-100">
+                        </a> 
+                        <a data-responsive="images/projects/project10.png 375, images/projects/project10.png 480, images/projects/project10.png 800,"  data-src="images/projects/project10.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
+                            <img src="images/projects/project10.png" alt="Image" class="w-100">
+                        </a> 
+                       
                      
                     </div>
                 </div>
@@ -764,16 +673,31 @@
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
 
+    <script src='https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js'></script>
+    <script src='https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js'></script>
+    <script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
+  <script>
+  $(document).ready(function() {
+            lightGallery(document.getElementById('lightgallery'))
+        });
+  </script>
+
+
   <script>
     // Popup
-$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-    fixedContentPos: false
-});
+// $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+//     disableOn: 700,
+//     type: 'iframe',
+//     mainClass: 'mfp-fade',
+//     removalDelay: 160,
+//     preloader: false,
+//     fixedContentPos: false
+// });
 
   </script>
     <script>
