@@ -2,726 +2,1725 @@
 <html lang="zxx">
 
 <head>
-    <title>Alok Kumar</title>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Alok - Personal Website" name="description" />
-    <meta content="" name="keywords" />
-    <meta content="" name="author" />
-    <!-- CSS Files
-    ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel='stylesheet' href='https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
 
-    <style>
-        :root {
-            /* --primary-color: #CF1F1F; */
-            --primary-color: #FFD700;
-            --primary-color-rgb: 207, 31, 31;
-        }
-        .gallery-card-item {
-    display: block;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    z-index: 9;
-    bottom: 0;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 8%);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 8%);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    height: 400px;
-}
-        .gallery-card-item figure .overlay {
-    opacity: 0;
-    visibility: hidden;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    -webkit-transition: 0.7s;
-    -o-transition: 0.7s;
-    transition: 0.7s;
-    height: 400px;
-}
-.gallery-card-item:hover figure .overlay, .gallery-card-item:focus figure .overlay {
-    opacity: 1 !important;
-    visibility: visible;
-}
-.gallery-card-item figure {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    z-index: 12;
-    position: relative;
-}
-.gallery-card-item figure .overlay i {
-    z-index: 12;
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/pe-helper.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
 
-    font-size: 30px;
-    position: absolute;
-    margin-left: -15px;
-    margin-top: -45px;
-    top: 50%;
-    left: 50%;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-.gallery-card-item figure .overlay .d-text {
-    z-index: 12;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@700;900&display=swap" rel="stylesheet">
 
-    font-size: 30px;
-    position: absolute;
-    margin-left: -15px;
-    margin-top: -45px;
-    top: 50%;
-    left: 50%;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-.gallery-img-wrap{ margin-bottom: 20px; height: 300px; cursor: pointer;}
-.gallery-img-wrap img{ height: 100%; object-fit: cover;}
-    </style>
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title> Alok Kumar</title>
 </head>
 
-<body class="onepage dark-scheme">
-    <div id="wrapper">
-        <!-- header begin -->
-        <header class="transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="index.html">
-                                            <img alt="" class="logo" src="images/remove-bg.png"  style="max-width: 150px;"/>
-                                            <img alt="" class="logo-2" src="images/remove-bg.png" style="max-width: 140px;" />
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                            </div>
-                            <div class="de-flex-col header-col-right">
-                                <ul id="mainmenu">
-                                    <li><a class="active" href="#top">Home<span></span></a></li>
-                                    <li><a href="#section-about">About me<span></span></a></li>
-                                    <li><a href="#section-services">What I Do<span></span></a></li>
-                                    <li><a href="#section-portfolio">Portfolio<span></span></a></li>
-                                    <li><a href="#section-resume">My Resume<span></span></a></li>
-                                    <li><a href="#section-blog">Blog<span></span></a></li>
-                                    <li><a href="#section-contact">Contact Me<span></span></a></li>
-                                </ul>
-                                <div class="menu_side_area">
-                                    <span id="menu-btn"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header close -->
-        <!-- content begin -->
-        <div class="no-bottom no-top" id="content">
-            <div id="top"></div>
+<body data-bs-spy="scroll" data-bs-target="#site-navbar" class="home-developer dark-mode">
 
-            <!-- page preloader begin -->
-            <!-- <div id="preloader">
-                <div class="preloader1"></div>
-            </div> -->
-            <!-- page preloader close -->
-
-            <!-- float text begin -->
-            <div class="float-text">
-                <div class="de_social-icons">
-                    <a href="https://github.com/Alok-AX"><i class="fa fa-github fa-lg"></i></a>
-                    <!-- <a href="#"><i class="fa fa-twitter fa-lg"></i></a> -->
-                    <a href="https://www.linkedin.com/in/sahooalokkumar/"><i class="fa fa-linkedin fa-lg"></i></a>
-                </div>
-                <span>Follow Me</span>
-            </div>
-            <!-- float text close -->
-
-            <!-- load external content begin -->
-            <div id="de_modal">
-                <button class="button-close"></button>
-                <div class="d-modal-loader"></div>
-            </div>
-            <!-- load external content close -->
-
-            <section aria-label="section" class="jarallax no-top no-bottom text-light">
-                <img src="images/background/banner2.jpg" class="jarallax-img" alt="">
-                <div id="particles-js"></div>
-                <div class="v-center">
-                    <div class="container col-lg-6" style="margin-left: auto; margin-right: inherit;">
-                        <div class="row align-items-center">
-                            <div class="col-md-12">
-                                <h6 class="wow fadeInUp" data-wow-delay=".4s"><span class="id-color">I Am Alok kumar Sahoo</span></h6>
-                                <div class="spacer-10"></div>
-                                <div class="h1_big text-white wow fadeInUp" data-wow-delay=".6s">
-                                    <div class="typed-strings">                                        
-                                        <p>Web Developer</p>
-                                        <p>Front End Developer</p>
-                                        <p>WordPress Developer</p>
-                                        <p>Freelancer</p>
-                                        <p>Web Designer </p>
-                                    </div>
-                                    <div class="typed"></div>
-                                </div>
-                            </div>
-                            <div class="spacer-20"></div>
-                            <ul class="list_location wow fadeInUp" data-wow-delay=".8s">
-                                <li><span>Odisha</span>Cuttack</li>
-                                <li><span>India</span>Karnataka </li>
-                                <li><span>Odisha</span>Bhubaneswar</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <a href="#section-about" class="mouse-icon-click scroll-to wow fadeInUp" data-wow-delay=".8s">
-                    <span class="mouse fadeScroll relative" data-scroll-speed="10">
-                        <span class="scroll"></span>
-                    </span>
-                </a>
-                <div class="de-gradient-edge-bottom"></div>
-            </section>
-
-            <!-- section-about -->
-
-            <section id="section-about" aria-label="section" class="jarallax no-top no-bottom">
-                <div class="de-gradient-edge-top"></div>
-                <img src="images/background/2.jpg" class="jarallax-img" alt="">                
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>About Me</h2>
-                            <div class="space-border"></div>
-                        </div>
-                        <div class="col-md-10 offset-md-1 text-center wow fadeInUp">
-                            <p>I work as a web front-end developer. I can provide pixel-perfect design and clean code. I also use web animations to make the website more interactive. I can provide clean code, pixels, and a flawless design.
-                            </p>
-                        <p> I'm working on responsive web design, user interface prototyping, wire framing, HTML, and CSS (Bootstrap),In my current position, I work with JavaScript (React Js), interaction flows and interaction design, web application development, and colour theory. Also, learn about time management, teamwork, and dealing with workload pressure.</p>
-                        </div>
-                        <div class="spacer-single"></div>
-                        <div class="col-lg-3 position-relative wow fadeIn" data-wow-delay=".2s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="90">
-                                        <div></div>
-                                    </div>
-                                    <h4>HTML</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn" data-wow-delay=".4s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="85">
-                                        <div></div>
-                                    </div>
-                                    <h4>CSS</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn" data-wow-delay=".6s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="80">
-                                        <div></div>
-                                    </div>
-                                    <h4>Bootstrap</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn" data-wow-delay=".8s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="60">
-                                        <div></div>
-                                    </div>
-                                    <h4>JavaScript</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn mt-4" data-wow-delay=".8s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="50">
-                                        <div></div>
-                                    </div>
-                                    <h4>jQuery</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn mt-4" data-wow-delay=".8s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="40">
-                                        <div></div>
-                                    </div>
-                                    <h4>React</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn mt-4" data-wow-delay=".8s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="80">
-                                        <div></div>
-                                    </div>
-                                    <h4>WordPress</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 position-relative wow fadeIn mt-4" data-wow-delay=".8s">
-                            <div class="position-relative">
-                                <div class="progressbar" data-animate="false">
-                                    <div class="circle" data-percent="35">
-                                        <div></div>
-                                    </div>
-                                    <h4>Figma</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="de-gradient-edge-bottom"></div> -->
-            </section>
-
-            <!-- section-services -->
-
-            <section id="section-services" class="no-bottom">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>What I Do</h2>
-                            <div class="space-border"></div>
-                        </div>
-                        <div class="spacer-single"></div>
-                        <div class="row g-0">
-                            <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
-                                <div class="de_3d-box">
-                                    <div class="d-inner">
-                                        <i class="fa-sharp fa-solid fa-desktop id-color"></i>
-                                     
-                                        <div class="text">
-                                            <h3>Web Designing</h3>
-                                            I use HTML, CSS, javascript, react js, and the bootstrap framework to construct bespoke web applications. I also use figma/psd design to html, css, and java script convert with flawless pixel no error.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
-                                <div class="de_3d-box">
-                                    <div class="d-inner">
-                                        <i class="fa fa-laptop-code id-color"></i>
-                                        <div class="text">
-                                            <h3>Web Development</h3>
-                                            Using HTML, CSS, javascript, react js, and the bootstrap framework, I develop unique online applications.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s">
-                                <div class="de_3d-box">
-                                    <div class="d-inner">
-                                        <i class="fa-brands fa-wordpress-simple id-color"></i>
-                                       
-                                        <div class="text">
-                                            <h3>WordPress Development</h3>
-                                            Custom WordPress Development, PSD/HTML to WordPress Conversion, and Theme Development are some of the services I provide with my done-for-you WordPress Development for your company website.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-portfolio" class="no-bottom">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>Portfolio</h2>
-                            <div class="space-border"></div>
-                        </div>
-                    </div>
-                    <div id="lightgallery" class="row sequence">
-
-                        <a data-responsive="images/projects/project1.png 375, images/projects/project1.png 480, images/projects/project1.png 800,"  data-src="images/projects/project1.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project1.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project3.png 375, images/projects/project2.png 480, images/projects/project2.png 800,"  data-src="images/projects/project2.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project2.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project3.png 375, images/projects/project3.png 480, images/projects/project3.png 800,"  data-src="images/projects/project3.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project3.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project4.png 375, images/projects/project4.png 480, images/projects/project4.png 800,"  data-src="images/projects/project4.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project4.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project5.png 375, images/projects/project5.png 480, images/projects/project5.png 800,"  data-src="images/projects/project5.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project5.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project6.png 375, images/projects/project6.png 480, images/projects/project6.png 800,"  data-src="images/projects/project6.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project6.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project8.png 375, images/projects/project8.png 480, images/projects/project8.png 800,"  data-src="images/projects/project8.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project8.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project9.png 375, images/projects/project9.png 480, images/projects/project9.png 800,"  data-src="images/projects/project9.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project9.png" alt="Image" class="w-100">
-                        </a> 
-                        <a data-responsive="images/projects/project10.png 375, images/projects/project10.png 480, images/projects/project10.png 800,"  data-src="images/projects/project10.png" data-sub-html="" class="wow col-lg-4 gallery-img-wrap wow fadeInUp" data-wow-delay="0.4s" >
-                            <img src="images/projects/project10.png" alt="Image" class="w-100">
-                        </a> 
-                       
-                     
-                    </div>
-                </div>
-            </section>
-
-            <!-- section-resume -->
-
-            <section id="section-resume">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>My Resume</h2>
-                            <div class="space-border"></div>
-                        </div>
-                    </div>
-                    <div class="row gh-5">
-                        <div class="col-lg-6 wow fadeInUp">
-                            <div class="p-4">
-                                <h3 class="s_border">Experiences</h3>
-                                <ul class="d_timeline">
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2023 - now</h3>
-                                        <p class="d_timeline-text"><span class="d_title"> Web Developer</span><span class="d_company">Rapidmind Technologies [Bangalore Karnataka]</span>
-                                            In my current position, I am responsible for responsive web design, UI prototyping, wire-framing, HTML, CSS(Bootstrap), JavaScript, interaction flows and interaction design, web application development, and colour theory. Also, learn about time management, teamwork, and how to deal with workload pressure.</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2021 - 2022</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Junior UI / UX Designer</span><span class="d_company">SkilledAnswers Infosolutions Pvt Ltd [Bangalore Karnataka]</span>
-                                            In my previous job, I worked on interactive flow and interaction design, responsive web design, UI prototyping, wire-framing, HTML, CSS (Bootstrap), JavaScript (React Js), web application development, and colour theory. Learn about collaboration, time management, and how to deal with workload pressure, as well.</p>
-                                    </li>                                   
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeInUp">
-                            <div class="p-4">
-                                <h3 class="s_border">Education</h3>
-                                <ul class="d_timeline">
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2017 - 2019</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Bachelor Degree [Bsc]</span><span class="d_company">Utkal University [Odisha Bhubaneswar]</span> CGPA/ Percentage: 6.95</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2014 - 2016</h3>
-                                        <p class="d_timeline-text"><span class="d_title">+2 Sc</span><span class="d_company">University: CHSE, Odisha [Fame Science College, Bhubaneswar]</span>CGPA/ Percentage: 52.00%</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2014 - 2014</h3>
-                                        <p class="d_timeline-text"><span class="d_title">High School [10 th]</span><span class="d_company">Institution Name : Sri Aurovindo Center of Integral Education, Gopinathpur, Cuttack [University: BSE, Odisha]</span>
-                                            CGPA/ Percentage: 79.00%</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-fun-facts" aria-label="section" class="jarallax">
-                <div class="de-gradient-edge-top"></div>
-                <img src="images/background/3.jpg" class="jarallax-img" alt="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 wow fadeIn" data-wow-delay="0">
-                            <div class="de_count text-center">
-                                <h3 class="timer" data-to="13296" data-speed="2500">0</h3>
-                                <span>Hours of Works</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeIn" data-wow-delay=".25s">
-                            <div class="de_count text-center">
-                                <h3 class="timer" data-to="140" data-speed="2500">0</h3>
-                                <span>Projects Done</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeIn" data-wow-delay=".5s">
-                            <div class="de_count text-center">
-                                <h3 class="timer" data-to="27" data-speed="2500">0</h3>
-                                <span>Satisfied Customers</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeIn" data-wow-delay=".75s">
-                            <div class="de_count text-center">
-                                <h3 class="timer" data-to="1" data-speed="2500">0</h3>
-                                <span>Awards Winning</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="de-gradient-edge-bottom"></div>
-            </section>
-            <section id="section-blog" class="no-bottom">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>Recent Blog</h2>
-                            <div class="space-border"></div>
-                        </div>
-                    </div>
-                    <div id="carousel-blog" class="owl-carousel wow fadeInUp">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/1.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">How to Make Better User Interface</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/2.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">10 Web Design Tips From Experts</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/3.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">The Importance of Web Design</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/4.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">10 Web Design Tips From Experts</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/5.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">The Importance of Web Design</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/6.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">Tips for Healthy Teeth<span></span></h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-contact" class="jarallax">
-                <div class="de-gradient-edge-top"></div>
-                <img src="images/background/5.jpg" class="jarallax-img" alt="">
-                <div class="container z-index-1000">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>Contact Me</h2>
-                            <div class="space-border"></div>
-                        </div>
-                        <div class="col-lg-8 offset-lg-2 wow fadeInUp">
-                            <div class="contact_form_wrapper">
-                                <form  class="form-border" action="https://formspree.io/f/xknaorve"
-                                method="POST"   enctype="multipart/form-data">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="field-set">
-                                                <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="field-set">
-                                                <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="field-set">
-                                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-center">
-                                        <div class="field-set">
-                                            <textarea row="5" col="5" name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
-                                        </div>
-                                        <div id='submit' class="mt10">
-                                            <input type='submit' id='send_message' value='Send Message' class="btn-main">
-                                        </div>                                       
-
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="spacer-double"></div>
-                            <div class="row text-center wow fadeInUp">
-                                <div class="col-md-4">
-                                    <div class="wm-1"></div>
-                                    <h6>Email Me</h6>
-                                    <p class="mb-1"><a href="mailto:alok965801@gmail.com">alok965801@gmail.com</a></p>
-                                  <p><a href="mailto:aloksahooax@gmail.com">aloksahooax@gmail.com</a></p>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="wm-1"></div>
-                                    <h6>Call Me</h6>
-                                    <p class="mb-1"><a href="tel:+1234567890">7978701837</a></p>
-                                    <p><a href="tel:+1234567890">9658879042</a></p>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="wm-1"></div>
-                                    <h6>Address</h6>
-                                    <p>Cuttack, Odisha , IND</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="de-gradient-edge-bottom"></div>
-            </section>
+    <!-- PRE LOADER -->
+    <div class="preloader js-preloader flex-center">
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
         </div>
+    </div>
 
-
-
-    
-        <!-- content close -->
-        <a href="#" id="back-to-top"></a>
-        <!-- footer begin -->
-        <footer>
+    <!-- SITE HEADER -->
+    <header class="site-header" id="site-header">
+        <nav class="navbar navbar-expand-xl" id="site-navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="www.linkedin.com/in/sahooalokkumar/">
-                            <span class="copy">&copy; Copyright 2022 - Alok Kumar All Rights Reserved</span>
-                        </a>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" src="image/alok-new.png" alt="fungi logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+		    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#site-header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio-section">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service-section">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog-section">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- .navbar-nav -->
+                </div>
+                <!-- .collapse -->
+            </div>
+            <!-- .container -->
+        </nav>
+        <!-- .navbar -->
+
+    </header>
+    <!-- .site-header -->
+
+    <!-- HERO AREA -->
+    <section class="hero-area" id="hero-area">
+        <div class="container">
+            <div class="hero-content d-flex justify-content-center">
+                <div class="row d-flex align-items-center justify-content-center">
+
+                    <div class="col-xl-6 order-xl-last image-block">
+                        <div class="image-wrapper" data-tilt data-tilt-max="10">
+                            <ul class="hero-icons">
+                                <li>
+                                    <i class="fab fa-wordpress"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-react"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-bootstrap"></i>
+                                </li>
+                            </ul>
+                            <img class="img-fluid" src="image/hero-car.jpeg" alt="hero main image">
+                        </div>
+                        <!-- .image-wrapper -->
                     </div>
-                    <div class="col-md-6">
-                        <div class="social-icons">
-                            <a href="https://github.com/Alok-AX"><i class="fa fa-github fa-lg"></i></a>
-                            <!-- <a href="#"><i class="fa fa-twitter fa-lg"></i></a> -->
-                            <a href="https://www.linkedin.com/in/sahooalokkumar/"><i class="fa fa-linkedin fa-lg"></i></a>
-                            <!-- <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-rss fa-lg"></i></a> -->
+                    <!-- .image-block -->
+
+                    <div class="col-xl-6 order-xl-first content-block">
+                        <h1 class="hero-head"><small>Hello, I'm</small>Alok<strong>Kumar </strong></h1>
+                        <p>
+                            <!-- I develop websites using .. -->
+                            I'm  a 
+                        </p>
+                        <div id="tech-tools" class="tech-tools">
+                            <span>Web Developer</span>
+                            <span>Front End Developer</span>
+                            <span>WordPress Developer</span>
+                            <span>Freelancer</span>                            
+                        </div>
+                        <div class="link-group">
+                            <a class="btn-main" href="tel:7978701837">Contact Me</a>
+                            <ul class="hero-social list-inline">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/alokkumar.sahoo.3344"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/aloksahooAX"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/sahooalokkumar/"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/call_me__lucifer_/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                            <!-- .hero-social -->
+                        </div>
+                        <!-- .link-group -->
+                    </div>
+                    <!-- .content-block -->
+
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .hero-content -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-hero-1 elem-updown" src="image/design-elements/hero-element-1.png" alt="hero element 1">
+            <img class="de-hero-2 elem-move" src="image/design-elements/hero-element-2.png" alt="hero element 2">
+            <img class="de-hero-3 elem-updown" src="image/design-elements/hero-element-3.png" alt="hero element 3">
+            <img class="de-hero-4 elem-updown" src="image/design-elements/hero-element-4.png" alt="hero element 4">
+            <img class="de-hero-5 elem-move" src="image/design-elements/hero-element-5.png" alt="hero element 5">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .hero-area -->
+
+    <!-- INTRO SECTION -->
+    <section class="intro-section section-block">
+        <div class="container">
+            <div class="section-title">
+                <h2>Welcome to my World</h2>
+                <p class="lead">
+                    I'm a young tech enthasist and entrepreneur who love to take risk. I grew up in a tech family in New York City.
+                </p>
+            </div>
+            <!-- .section-title -->
+            <div class="row">
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up">
+                    <div class="item-wrapper">
+                        <div class="icon-box"><i class="pe-7s-science"></i></div>
+                        <div class="content-wrapper">
+                            
+                            <h3> Pixel-Perfect Designs Creativity</h3>
+                            <p>
+                                Unleashing creativity through meticulous attention to detail, I specialize in crafting pixel-perfect designs that elevate your digital presence. Each project is a canvas where innovation meets precision, ensuring a visually stunning and seamless user experience.
+                            </p>
+                        </div>
+                        <!-- .content-wrapper -->
+                    </div>
+                    <!-- .item-wrapper -->
+                </div>
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200">
+                    <div class="item-wrapper">
+                        <div class="icon-box"><i class="pe-7s-diamond"></i></div>
+                        <div class="content-wrapper">
+                            <h3>Interactive Web Animations Dedication</h3>
+                            <p>
+                                Transforming static websites into dynamic experiences, I bring creativity to life through interactive web animations. From subtle transitions to captivating motion designs, I strive to engage users with visually appealing and user-friendly interfaces, enhancing the overall impact of your online platform.
+                            </p>
+                        </div>
+                        <!-- .content-wrapper -->
+                    </div>
+                    <!-- .item-wrapper -->
+                </div>
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1200">
+                    <div class="item-wrapper">
+                        <div class="icon-box"><i class="pe-7s-rocket"></i></div>
+                        <div class="content-wrapper">
+                            <h3>Custom WordPress Themes </h3>
+                            <p>
+                                Elevate your online identity with custom WordPress themes that blend functionality with a touch of artistic flair. Through a fusion of top-notch development skills and creative intuition, I design themes that not only meet your specific needs but also reflect a unique and captivating visual identity for your digital presence.
+                            </p>
+                        </div>
+                        <!-- .content-wrapper -->
+                    </div>
+                    <!-- .item-wrapper -->
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+
+        <div class="design-elements">
+            <img class="de-intro-1 elem-updown" src="image/design-elements/intro-element-1.png" alt="intro element 1">
+        </div>
+        <!-- .design-elements -->
+
+    </section>
+    <!-- .intro-section -->
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section section-block" id="about-section" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 image-block" data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">
+                    <div class="img-wrapper about-img-wrap" data-tilt data-tilt-max="10">
+                        <img class="about-img-1 img-fluid" src="image/odisha-map.jpg" alt="about image">
+                        <img class="about-img-2 img-fluid" src="image/setup.jpg" alt="about image 2">
+                    </div>
+                </div>
+                <div class="col-xl-6 content-block" data-aos="fade-right" data-aos-delay="400" data-aos-duration="2000">
+                    <h2><span>About Me</span>I develop Websites </h2>
+                    <p>
+
+                        I am a meticulous web front-end developer with a passion for crafting seamless online experiences. Specializing in pixel-perfect designs and clean code, I bring technical proficiency and creativity to projects. Proficient in HTML, CSS (Bootstrap), and JavaScript (React Js), I focus on responsive design, user interface prototyping, and creating engaging web applications. Beyond technical skills, I excel in time management, teamwork, and handling workload pressure for successful project delivery.
+                     </p>
+                    <p>
+                        In addition to front-end expertise, I am adept at WordPress development, excelling in standard development and custom theme creation. My goal is to seamlessly blend functionality with aesthetics, delivering websites that not only meet but exceed client expectations. Join me in transforming digital visions into reality, where clean code meets compelling design for an unparalleled online presence.                    </p>
+                    <div class="personal-details row">
+                        <div class="col-md-6">
+                            <ul class="personal-info">
+                                <li>
+                                    <h4>Name</h4>
+                                    <p> Alok kumar sahoo</p>
+                                </li>
+                                <li>
+                                    <h4>Email</h4>
+                                    <p class="mb-0">alok965801@gmail.com</p>
+                                    <p>aloksahooax@gmail.com</p>
+                                </li>
+                                <li>
+                                    <h4>Phone</h4>
+                                    <p class="mb-0">7978701837</p>
+                                    <p>9658879042</p>
+                                </li>
+                            </ul>
+                            <!-- .personal-info -->
+                        </div>
+                        <!-- .col-md-6 -->
+                        <div class="col-md-6">
+                            <ul class="personal-info">
+                                <li>
+                                    <h4>Age</h4>
+                                    <p>24 Years</p>
+                                </li>
+                                <li>
+                                    <h4>Education</h4>
+                                    <p>Bachelors in IT</p>
+                                </li>
+                                <li>
+                                    <h4>Freelance</h4>
+                                    <p>Available</p>
+                                </li>
+                            </ul>
+                            <!-- .personal-info -->
+                        </div>
+                        <!-- .col-md-6 -->
+                    </div>
+                    <!-- .personal-details -->
+                    <a class="btn-main" href="image/ALOK KUMAR SAHOO.pdf" download="Alok-CV">Download CV</a>
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-about-1 elem-updown" src="image/design-elements/about-element-1.png" alt="about element 1">
+            <img class="de-about-2 elem-updown" src="image/design-elements/about-element-2.png" alt="about element 2">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .about-section -->
+
+    <!-- SKILL SECTION -->
+    <section class="skill-section section-block" id="skill-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 content-block" data-aos="fade-down" data-aos-duration="2000">
+                    <h2><span>My Skills</span>I'm great in what I do and I'm loving it</h2>
+                    <p class="lead">
+                        In addition to front-end expertise, I am adept at WordPress development, excelling in standard development and custom theme creation. My goal is to seamlessly blend functionality with aesthetics, delivering websites that not only meet but exceed client expectations. Join me in transforming digital visions into reality, where clean code meets compelling design for an unparalleled online presence.                    </p>
+                    </p>
+                </div>
+                <div class="col-xl-6 progress-block">
+                    <div class="progress-wrapper">
+                        <h4>HTML5</h4>
+                        <p class="progress-value">84%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>CSS3</h4>
+                        <p class="progress-value">80%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>JAVASCRIPT</h4>
+                        <p class="progress-value">75%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>BOOTSTRAP</h4>
+                        <p class="progress-value">90%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>REACT JS</h4>
+                        <p class="progress-value">50%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>NEXT JS</h4>
+                        <p class="progress-value">40%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h4>WordPress</h4>
+                        <p class="progress-value">75%</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- footer close -->
-    </div>
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/designesia.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+    <!-- .skill-section -->
 
-    <script src='https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js'></script>
-    <script src='https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js'></script>
-    <script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
-  <script>
-  $(document).ready(function() {
-            lightGallery(document.getElementById('lightgallery'))
-        });
-  </script>
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio-section section-block" id="portfolio-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p class="lead">
+                    The Portfolio section is your gateway to understanding our work and the value we bring to each endeavor.
+                </p>
+            </div>
+            <!-- .section-title -->
+            <div class="button-group filter-button-group">
+                <button class="active" data-filter="*">All</button>
+                <button class="" data-filter=".programming">Programming</button>
+                <button class="" data-filter=".development">Development</button>
+                <button class="" data-filter=".design">Design</button>
+                <button class="" data-filter=".application">Application</button>
+            </div>
+            <div class="row grid" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 grid-item programming">
+                    <div class="box">
+                        <img src="image/portfolio/project1.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Programming</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal6"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project1.png" alt="portfolio image">
+                                            </div>
+                                           
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development application">
+                    <div class="box">
+                        <img src="image/portfolio/project2.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                           
+                        </div>
 
 
-  <script>
-    // Popup
-// $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-//     disableOn: 700,
-//     type: 'iframe',
-//     mainClass: 'mfp-fade',
-//     removalDelay: 160,
-//     preloader: false,
-//     fixedContentPos: false
-// });
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal5"><i class="bi bi-plus-lg"></i></a></div>
 
-  </script>
-    <script>
-        jQuery(document).ready(function() {
-            $(function() {
-                // jquery typed plugin
-                $(".typed").typed({
-                    stringsElement: $('.typed-strings'),
-                    typeSpeed: 100,
-                    backDelay: 500,
-                    loop: true,
-                    contentType: 'html', // or text
-                    // defaults to false for infinite loop
-                    loopCount: false,
-                    callback: function() {
-                        null;
-                    },
-                    resetCallback: function() {
-                        newTyped();
-                    }
-                });
-            });
-        });
-    </script>
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project2.png" alt="portfolio image">
+                                            </div>
+                                           
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item application programming design">
+                    <div class="box">
+                        <img src="image/portfolio/project3.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Design</span>
+                           
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal4"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project3.png" alt="portfolio image">
+                                            </div>
+                                           
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item design application">
+                    <div class="box">
+                        <img src="image/portfolio/project4.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Application</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal3"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project4.png" alt="portfolio image">
+                                            </div>
+                                           
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item programming design">
+                    <div class="box">
+                        <img src="image/portfolio/project5.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Programming</span>
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal2"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project5.png" alt="portfolio image">
+                                            </div>
+                                           
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project6.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project6.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project7.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project7.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project8.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project8.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project9.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project9.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project10.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project10.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project11.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project11.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project12.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project12.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project13.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project13.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project14.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project15.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design">
+                    <div class="box">
+                        <img src="image/portfolio/project15.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project15.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design programming application">
+                    <div class="box">
+                        <img src="image/portfolio/project16.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project16.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design programming application">
+                    <div class="box">
+                        <img src="image/portfolio/project17.png" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project17.png" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design programming">
+                    <div class="box">
+                        <img src="image/portfolio/project18.webp" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project18.webp" alt="portfolio image">
+                                            </div>
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item development design programming">
+                    <div class="box">
+                        <img src="image/portfolio/project19.webp" alt="portfolio image">
+                        <div class="box-content">
+                            <span class="category">Development</span>
+                            <!-- <h3 class="title">When you are stranger faces looks ugly</h3> -->
+                        </div>
+                        <div class="icon-box"><a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal1"><i class="bi bi-plus-lg"></i></a></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                        <div class="row item-content">
+                                            <div class="col-xl-12">
+                                                <img src="image/portfolio/project19.webp" alt="portfolio image">
+                                            </div>
+                                            <!-- <div class="col-xl-8">
+                                                <div class="content-wrapper">
+                                                    <h2 class="item-title">Branding for ABC Corporation</h2>
+                                                    <p>
+                                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                    <p>
+                                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="meta-wrapper">
+                                                    <ul class="item-meta">
+                                                        <li>Project Type: <span class="meta-value">Graphic Design</span></li>
+                                                        <li>Client: <span class="meta-value">Juwel Khan</span></li>
+                                                        <li>Duration: <span class="meta-value">2 Weeks</span></li>
+                                                        <li>Task: <span class="meta-value">UI/UX, Frontend</span></li>
+                                                        <li>Budget: <span class="meta-value">$2000</span></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div> -->
+                                          
+                                        </div>
+                                        <!-- .row -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-portfolio-1 elem-updown" src="image/design-elements/portfolio-element-1.png" alt="portfolio element 1">
+            <img class="de-portfolio-2 elem-updown" src="image/design-elements/portfolio-element-2.png" alt="portfolio element 2">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .portfolio-section -->
+
+    <!-- SERVICE SECTION -->
+    <section class="service-section section-block" id="service-section">
+        <div class="container">
+            <div class="section-title dark">
+                <h2>Service</h2>
+                <p class="lead">
+                    What I Do
+                </p>
+            </div>
+            <!-- .section-title -->
+            <div class="row">
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up">
+                    <div class="content-wrapper service-tilt" data-tilt data-tilt-max="15">
+                        <div class="icon-box"><i class="pe-7s-monitor"></i></div>
+                        <h3>Web Designing
+                        </h3>
+                        <p>
+                            I use HTML, CSS, javascript, react js, Next js, and the bootstrap framework to construct bespoke web applications. I also use figma/psd design to html, css, and java script convert with flawless pixel no error.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content-wrapper service-tilt" data-tilt data-tilt-max="15">
+                        <div class="icon-box"><i class="pe-7s-joy"></i></div>
+                        <h3> Web Development</h3>
+                        <p>
+                            Using HTML, CSS, javascript, react js, Next js, and the bootstrap framework, I develop unique online applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="content-wrapper service-tilt" data-tilt data-tilt-max="15">
+                        <div class="icon-box"><i class="pe-7s-display2"></i></div>
+                        <h3>WordPress Development</h3>
+                        <p>
+                            Custom WordPress Development, PSD/HTML to WordPress Conversion, and Theme Development are some of the services I provide with my done-for-you WordPress Development for your company website.                        </p>
+                    </div>
+                </div>
+              
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-service-1 elem-updown" src="image/design-elements/service-element-1.png" alt="service element 1">
+            <img class="de-service-2 elem-updown" src="image/design-elements/service-element-2.png" alt="service element 2">
+            <img class="de-service-3 elem-updown" src="image/design-elements/service-element-3.png" alt="service element 3">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .service-section -->
+
+    <!-- FEATURES SECTION -->
+    <section class="testimonial-section features-section section-block" id="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 image-block" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="image-wrapper">
+                        <img class="img-fluid feature-photo" src="image/feature-photo.png" alt="features photo" data-tilt data-tilt-max="10">
+                    </div>
+                    <!-- .image-wrapper -->
+                </div>
+                <!-- .image-block -->
+                <div class="col-xl-6 content-block" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                    <h2 class="block-title"><span>Why work with me</span>Best result with top user experience</h2>
+                    <p>
+                        I'm dedicated to delivering the best results and ensuring users have a great experience. My approach involves smart solutions, clean coding, and pixel-perfect precision, adding an extra layer of excellence to every project from concept to completion.                    </p>
+                    <ul class="features-list">
+                        <li class="d-flex align-items-center">
+                            <div class="icon-block">
+                                <div class="icon-box"><i class="pe-7s-umbrella"></i></div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="mb-0">Empower and Propel to greatness.</h4>
+
+                                <!-- <p>
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.
+                                </p> -->
+                            </div>
+
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="icon-block">
+                                <div class="icon-box"><i class="pe-7s-box2"></i></div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="mb-0">Motivate and Push to excel</h4>
+
+                               
+                            </div>
+
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="icon-block">
+                                <div class="icon-box"><i class="pe-7s-refresh-2"></i></div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="mb-0">Encourage and Drive to succeed</h4>
+
+                                
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+    <!-- .features-section -->
+
+
+
+    <!-- BLOG SECTION -->
+    <section class="blog-section section-block" id="blog-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>From My Blog</h2>
+                <p class="lead">
+                    Exploring the Depths of Knowledge: A Journey Through My Blog.
+                </p>
+            </div>
+            <!-- .section-title -->
+            <div class="row">
+                <div class="col-lg-6 large-post" data-aos="fade-right" data-aos-duration="1200">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="blogModal1" tabindex="-1" aria-labelledby="blogModal1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                    <div class="row blog-content">
+                                        <div class="col-xl-12">
+                                            <img class="img-fluid" src="image/blog/blog_full_01.jpg" alt="blog post image 01">
+                                        </div>
+                                        <div class="col-xl-8 offset-xl-2">
+                                            <div class="content-wrapper">
+                                                <h2 class="blog-title">The Magic of PSD to WordPress Conversion.</h2>
+                                                <ul class="blog-meta d-md-flex align-items-center justify-content-md-center">
+                                                    <li><a href="#"><i class="bi bi-folder-fill"></i> WordPress</a></li>
+                                                    <li><i class="bi bi-calendar3"></i> October 21, 2022</li>
+                                                    <!-- <li><i class="bi bi-clock"></i> 10 min</li> -->
+                                                </ul>
+                                                <p>
+                                                    Navigating the fast-paced digital landscape, where establishing an impactful online presence is paramount, underscores the critical importance of a website that seamlessly blends dynamism with visual allure. For those aspiring to create a blog that not only captivates audiences but also ensures a smooth and engaging user experience, the transformative journey from PSD to WordPress emerges as the ultimate golden ticket.
+
+                                                </p>
+                                                <p>Embarking on the meticulous process of PSD to WordPress conversion extends beyond a mere technical transition; it represents a strategic move unlocking a myriad of advantages for your blog. Let's delve into the nuanced intricacies that render this conversion method a true game-changer for your online presence:</p>
+                                                <h5 class="mt-3 mb-3">Pixel-Perfect Precision:</h5>
+                                                <p>Bid farewell to design disparities. The PSD to WordPress conversion guarantees a website with pixel-perfect precision, where every element of your blog layout seamlessly translates from design files to the live website. This meticulous attention to detail significantly enhances overall aesthetics, leaving an indelible impression on your visitors.</p>
+                                                <h5 class="mt-3 mb-3">Responsive Design Excellence:</h5>
+                                                <p>In the age of mobile dominance, a responsive design is non-negotiable. By transitioning your PSD design to WordPress, you inherently embrace responsiveness. Your blog effortlessly adapts to various screen sizes, ensuring an optimal viewing experience across devices, ranging from desktops to smartphones.</p>
+                                                <h5 class="mt-3 mb-3">SEO-Friendly Architecture:</h5>
+                                                <p>WordPress's renowned SEO-friendly nature becomes a powerful ally during PSD to WordPress conversion. From clean and organized code to user-friendly URLs, the WordPress platform facilitates search engine optimization, amplifying the discoverability of your blog content among your target audience.</p>
+                                                <h5 class="mt-3 mb-3">Dynamic Content Management:</h5>
+                                                <p>WordPress transcends being a mere platform; it evolves into a content management powerhouse. Revel in the simplicity of adding, editing, and managing your blog content without navigating complex coding. The intuitive interface empowers you to focus on your forte – crafting compelling blog posts – while the backend seamlessly handles technical intricacies.</p>
+                                                <h5 class="mb-3 mt-3">Plugin Integration for Functionality Boost:</h5>
+                                                <p>Effortlessly extend your blog's capabilities through the expansive realm of WordPress plugins. Whether integrating social media seamlessly or deploying advanced SEO tools, the WordPress plugin ecosystem empowers you to enhance your blog's functionality with minimal effort, providing your audience with a richer and more interactive experience.</p>
+                                                <h5 class="mt-3 mb-3">Wrapping Up:</h5>
+                                                <p>The journey from PSD to WordPress transcends a simple conversion; it symbolizes a strategic leap towards crafting a blog that not only captures attention but sustains it. With pixel-perfect precision, responsive design, SEO-friendly architecture, dynamic content management, and plugin integration, your blog evolves into a dynamic force within the online realm.</p>
+                                                <p>Elevate your blogging experience, captivate your audience, and surge ahead in the digital landscape with the transformative power encapsulated in PSD to WordPress conversion. Your blog's success narrative begins right here.</p>
+                                             
+                                                <div class="post-footer row">
+                                                    <div class="blog-tags col-lg-12 d-md-flex align-items-md-center">
+                                                        <h4>Tags:</h4>
+                                                        <ul class="tag-list list-inline">
+                                                            <li class="list-inline-item"><a href="#">Wordpress web Design</a></li>
+                                                            <li class="list-inline-item"><a href="#">Wordpress Development</a></li>
+                                                            <li class="list-inline-item"><a href="#">Application</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- <div class="blog-share col-lg-4 d-flex align-items-center justify-content-xxl-end">
+                                                        <h4>Share:</h4>
+                                                        <ul class="tag-list list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a class="facebook-share" href="#"><i class="bi bi-facebook"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="twitter-share" href="#"><i class="bi bi-twitter"></i></a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a class="linkedin-share" href="#"><i class="bi bi-linkedin"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- .row -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-wrapper">
+                        <div class="post-content">
+                            <ul class="post-meta">
+                                <li class="post-date">
+                                    <i class="pe-7s-clock"></i> October 23, 2022
+                                </li>
+                                <li class="post-cat">
+                                    <a href="#"><i class="pe-7s-folder"></i> Web WordPress Design</a>
+                                </li>
+                            </ul>
+                            <h3><a href="#" data-bs-toggle="modal" data-bs-target="#blogModal1">The Magic of PSD to WordPress Conversion</a></h3>
+
+
+
+                        </div>
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="image/blog/post-thumbnail-01.jpg" alt="post thumnail">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 post-group">
+                    <div class="row">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                            <!-- Modal -->
+                            <div class="modal fade" id="blogModal2" tabindex="-1" aria-labelledby="blogModal2" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                            <div class="row blog-content">
+                                                <div class="col-xl-12">
+                                                    <img class="img-fluid" src="image/blog/blog_full_03.jpg" alt="blog post image 02">
+                                                </div>
+                                                <div class="col-xl-8 offset-xl-2">
+                                                    <div class="content-wrapper">
+                                                        <h2 class="blog-title">Transforming Figma Designs into Code: A Seamless Journey from Vision to Reality
+                                                            different</h2>
+                                                        <ul class="blog-meta d-md-flex align-items-center justify-content-md-center">
+                                                            <li><a href="#"><i class="bi bi-folder-fill"></i> Design to Code</a></li>
+                                                            <li><i class="bi bi-calendar3"></i> October 21, 2021</li>
+                                                        </ul>
+                                                        <h5 class="mt-3 mb-3">Introduction:</h5>
+                                                        <p>In the dynamic realm of web and app development, the transition from design to code plays a pivotal role in bringing digital visions to life. One tool that has gained immense popularity for its design capabilities is Figma. In this blog post, we'll explore the art of converting Figma designs into code, uncovering the steps involved, and highlighting the significance of a harmonious collaboration between designers and developers.</p>
+                                                        <h5 class="mt-3 mb-3">Bridging the Gap: Figma's Role in the Design-Code Continuum</h5>
+                                                        
+                                                        <p> - Understanding how Figma serves as a bridge between design and code.</p>
+                                                        <p> - The power of Figma's collaborative features in fostering teamwork.</p>
+
+                                                        <h5 class="mb-3 mt-3">Decoding Figma Designs: A Developer's Perspective</h5>
+                                                        <p>- Analyzing Figma designs from a developer's viewpoint.</p>
+                                                        <p>- Recognizing design elements and their implications in the coding process.</p>
+
+                                                        <h5 class="mt-3 mb-3">Automating the Process: From Figma to Code with Ease</h5>
+                                                        <p>- Exploring tools and plugins that streamline the conversion process.</p>
+                                                        <p>- Leveraging automation to enhance efficiency and reduce manual effort.</p>
+                                                        <h5 class="mt-3 mb-3">Responsive Design Magic: Ensuring Code Adapts to All Screens</h5>
+                                                        <p>- Addressing the challenges of responsive design during Figma to code conversion.</p>
+                                                        <p>- Strategies for creating code that seamlessly adapts to various screen sizes.</p>
+                                                        <h5 class="mt-3 mb-3">Collaboration is Key: Designers and Developers Unite</h5>
+                                                        <p>- Establishing effective communication channels between designers and developers.</p>
+                                                        <p>- The impact of collaborative workflows on the final product.</p>
+                                                        <h5 class="mt-3 mb-3"> Common Pitfalls and How to Avoid Them in Figma to Code Conversion</h5>
+                                                        <p>- Identifying common challenges in the conversion journey.</p>
+                                                        <p>- Proactive measures and best practices to overcome potential roadblocks.</p>
+                                                        <h5 class="mt-3 mb-3">Future Trends: What Lies Ahead in Figma to Code Transformation</h5>
+                                                        <p>- Exploring emerging technologies and methodologies in design-to-code workflows.</p>
+                                                        <p>- Staying ahead of the curve for a future-proof development process.</p>
+                                                        
+                                                        <div class="post-footer row">
+                                                            <div class="blog-tags col-lg-12 d-md-flex align-items-md-center">
+                                                                <h4>Tags:</h4> 
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item"><a href="#">figma web Design</a></li>
+                                                                    <li class="list-inline-item"><a href="#">figma Development</a></li>
+                                                                    <li class="list-inline-item"><a href="#">Application</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="blog-share col-lg-4 d-flex align-items-center justify-content-xxl-end">
+                                                                <h4>Share:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item">
+                                                                        <a class="facebook-share" href="#"><i class="bi bi-facebook"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="twitter-share" href="#"><i class="bi bi-twitter"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="linkedin-share" href="#"><i class="bi bi-linkedin"></i></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- .row -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-wrapper">
+                                <div class="post-content">
+                                    <ul class="post-meta">
+                                        <li class="post-date">
+                                            <i class="pe-7s-clock"></i> October 23, 2021
+                                        </li>
+                                        <li class="post-cat">
+                                            <a href="#"><i class="pe-7s-folder"></i> Figma to HTML</a>
+                                        </li>
+                                    </ul>
+                                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#blogModal2">Transforming Figma Designs into Code</a></h3>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img class="img-fluid" src="image/blog/post-thumbnail-03.jpg" alt="post thumnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                            <!-- Modal -->
+                            <div class="modal fade" id="blogModal3" tabindex="-1" aria-labelledby="blogModal3" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                            <div class="row blog-content">
+                                                <div class="col-xl-12">
+                                                    <img class="img-fluid" src="image/blog/blog_full_04.jpg" alt="blog post image 03">
+                                                </div>
+                                                <div class="col-xl-8 offset-xl-2">
+                                                    <div class="content-wrapper">
+                                                        <h2 class="blog-title">AI Horizons: Crafting the Future of Cutting-Edge Web Experiences</h2>
+                                                        <ul class="blog-meta d-md-flex align-items-center justify-content-md-center">
+                                                            <li><a href="#"><i class="bi bi-folder-fill"></i> Future Ai</a></li>
+                                                            <li><i class="bi bi-calendar3"></i> June 21, 2022</li>
+                                                            
+                                                        </ul>
+                                                        <h5 class="mb-3 mt-3">Introduction: Embracing the AI Revolution in Web Development</h5>
+                                                        <p>In the dynamic landscape of web development, the integration of Artificial Intelligence (AI) has become more than just a trend—it's a transformative force. This blog explores how AI is shaping the future of website design and development, ushering in a new era of innovation and user experience.</p>
+                                                        <h5 class="mt-3 mb-3">1. "AI-Powered User Personalization: Tailoring Experiences for Every Visitor"</h5>
+                                                        <p>Delve into the world of AI-driven user personalization and discover how it revolutionizes website interactions. From personalized content recommendations to adaptive interfaces, explore the ways in which AI is elevating user engagement to unprecedented levels.</p>
+                                                        <h5 class="mt-3 mb-3">2. "Chatbots and Virtual Assistants: Humanizing User Interactions"</h5>
+                                                        <p>Unravel the magic behind AI-driven chatbots and virtual assistants. Explore how these intelligent entities not only enhance customer support but also contribute to a more humanized online experience, fostering meaningful interactions between users and websites.</p>
+                                                        <h5 class="mt-3 mb-3">3. "Responsive Design Meets AI: Crafting Websites for Every Device and User"</h5>
+                                                        <p>Witness the marriage of responsive design principles and AI capabilities. Learn how AI contributes to creating websites that seamlessly adapt to various devices and user preferences, ensuring a consistent and optimized experience for all.</p>
+                                                        <h5 class="mt-3 mb-3">4. "AI in Content Creation: Elevating Web Copy and Visuals"</h5>
+                                                        <p>Discover how AI is transforming content creation, from generating compelling copy to creating visually stunning graphics. Explore the tools and techniques that empower web developers to enhance the quality and efficiency of their content creation processes.</p>
+                                                        <h5 class="mt-3 mb-3">5. "The Rise of Predictive Analytics: Anticipating User Behavior for Enhanced Experiences"</h5>
+                                                        <p>Dive into the realm of predictive analytics and explore how AI algorithms anticipate user behavior. Learn how websites leverage this technology to provide personalized recommendations, streamline navigation, and ultimately enhance the overall user experience.</p>
+                                                        <h5 class="mt-3 mb-3">Conclusion: Embracing the Future with AI-Powered Web Development</h5>
+                                                        <p>As we conclude this exploration of AI in web development, it's evident that the integration of artificial intelligence is not just a technological upgrade—it's a paradigm shift. By embracing AI, web developers can unlock new possibilities, creating cutting-edge websites that captivate audiences and redefine digital experiences. The future of web development is here, and it's empowered by the limitless potential of AI.</p>
+                                                        <div class="post-footer row">
+                                                            <div class="blog-tags col-lg-8 d-md-flex align-items-md-center">
+                                                                <h4>Tags:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item"><a href="#">Ai Design</a></li>
+                                                                    <li class="list-inline-item"><a href="#"></a></li>
+                                                                    <li class="list-inline-item"><a href="#"> AI Application</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="blog-share col-lg-4 d-flex align-items-center justify-content-xxl-end">
+                                                                <h4>Share:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item">
+                                                                        <a class="facebook-share" href="#"><i class="bi bi-facebook"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="twitter-share" href="#"><i class="bi bi-twitter"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="linkedin-share" href="#"><i class="bi bi-linkedin"></i></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- .row -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="post-content">
+                                    <ul class="post-meta">
+                                        <li class="post-date">
+                                            <i class="pe-7s-clock"></i> June 21, 2022
+                                        </li>
+                                        <li class="post-cat">
+                                            <a href="#"><i class="pe-7s-folder"></i>  Web Brilliance </a>
+                                        </li>
+                                    </ul>
+                                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#blogModal3">AI Horizons</a></h3>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img class="img-fluid" src="image/blog/post-thumbnail-04.jpg" alt="post thumnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                            <!-- Modal -->
+                            <div class="modal fade" id="blogModal4" tabindex="-1" aria-labelledby="blogModal4" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                            <div class="row blog-content">
+                                                <div class="col-xl-12">
+                                                    <img class="img-fluid" src="image/blog/blog_full_05.jpg" alt="blog post image 04">
+                                                </div>
+                                                <div class="col-xl-8 offset-xl-2">
+                                                    <div class="content-wrapper">
+                                                        <h2 class="blog-title">2024 Unveiled: Realistic Next.js Trends Shaping Modern Web Development</h2>
+                                                        <ul class="blog-meta d-md-flex align-items-center justify-content-md-center">
+                                                            <li><a href="#"><i class="bi bi-folder-fill"></i>  Next Js</a></li>
+                                                            <li><i class="bi bi-calendar3"></i> January 1, 2024</li>
+                                                            
+                                                        </ul>
+                                                       <h5 class="mb-3 mt-3">Introduction: Navigating the Practical Realities of Next.js in 2024</h5>
+                                                       <p>In the fast-paced realm of web development, pragmatism is key. This blog offers a down-to-earth exploration of the realistic and impactful trends within Next.js that are poised to shape the landscape of modern web development in 2024.</p>
+                                                       <hr>
+                                                       <h5 class="mt-3 mb-3">1. "Beyond the Hype: Next.js in the Everyday Developer Toolkit"</h5>
+                                                       <p>Explore the practical applications of Next.js beyond the buzz. Understand how the framework is becoming an indispensable tool for developers, providing real-world solutions to everyday challenges in the web development process.</p>
+                                                       <hr>
+                                                       <h5 class="mt-3 mb-3">2. "Performance Boosters: How Next.js Addresses the Need for Speed"</h5>
+                                                       <p>Take a realistic look at how Next.js is tackling performance challenges. From practical examples of automatic code splitting to tangible improvements in loading times, understand how Next.js is genuinely enhancing the performance of web applications.</p>
+                                                       <hr>
+                                                       <h5 class="mt-3 mb-3">3. "JAMstack's Practical Evolution: Why Next.js Matters in 2024"</h5>
+                                                       <p>Delve into the evolution of JAMstack and how Next.js plays a practical role in its application. Explore real-world scenarios where the JAMstack architecture, coupled with Next.js, is offering tangible benefits in terms of scalability, security, and ease of development.</p>
+                                                       <hr>
+                                                       <h5 class="mt-3 mb-3">4. "Tailwind CSS and Next.js: Streamlining Styling for the Real World"</h5>
+                                                       <p>Discover how the integration of Tailwind CSS with Next.js isn't just a theoretical concept but a pragmatic solution for developers. Learn how this combination simplifies styling without compromising on the flexibility and scalability needed in real-world web development projects.</p>
+                                                       <hr>
+                                                       <h5 class="mb-3 mt-3">5. "API Routes: Practical Solutions for Seamless Data Fetching"</h5>
+                                                       <p>Take a closer look at how API routes in Next.js provide practical solutions for data fetching and serverless functions. Through real-world examples, understand how developers can leverage this feature to build robust and modular web applications in a way that aligns with the demands of practical development scenarios.</p>
+                                                       <hr> 
+                                                       <h5 class="mt-3 mb-3">Conclusion: Navigating Web Realities with Next.js in 2024</h5>
+                                                       <p>In conclusion, the world of web development in 2024 demands practical solutions, and Next.js is stepping up to the challenge. As developers navigate the complexities of modern web projects, Next.js emerges not just as a trend but as a dependable ally, offering pragmatic tools and approaches to overcome real-world challenges. The future is grounded in reality, and Next.js is at the forefront of this practical evolution in web development.</p>
+                                                        <div class="post-footer row">
+                                                            <div class="blog-tags col-lg-8 d-md-flex align-items-md-center">
+                                                                <h4>Tags:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item"><a href="#">Next js Web Design</a></li>
+                                                                    
+                                                                    <li class="list-inline-item"><a href="#">Next js Application</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="blog-share col-lg-4 d-flex align-items-center justify-content-xxl-end">
+                                                                <h4>Share:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item">
+                                                                        <a class="facebook-share" href="#"><i class="bi bi-facebook"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="twitter-share" href="#"><i class="bi bi-twitter"></i></a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a class="linkedin-share" href="#"><i class="bi bi-linkedin"></i></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- .row -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="post-content">
+                                    <ul class="post-meta">
+                                        <li class="post-date">
+                                            <i class="pe-7s-clock"></i> January 1, 2024
+                                        </li>
+                                        <li class="post-cat">
+                                            <a href="#"><i class="pe-7s-folder"></i> Next js </a>
+                                        </li>
+                                    </ul>
+                                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#blogModal4">Realistic Next.js Modern Web Development</a></h3>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img class="img-fluid" src="image/blog/post-thumbnail-05.jpg" alt="post thumnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
+                            <!-- Modal -->
+                            <div class="modal fade" id="blogModal5" tabindex="-1" aria-labelledby="blogModal5" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button>
+                                            <div class="row blog-content">
+                                                <div class="col-xl-12">
+                                                    <img class="img-fluid" src="image/blog/blog_full_06.jpg" alt="blog post image 05">
+                                                </div>
+                                                <div class="col-xl-8 offset-xl-2">
+                                                    <div class="content-wrapper">
+                                                        <h2 class="blog-title">Crafting an : A Simple Guide to Elevate User Experience</h2>
+                                                        <ul class="blog-meta d-md-flex align-items-center justify-content-md-center">
+                                                            <li><a href="#"><i class="bi bi-folder-fill"></i> January 6, 2024</a></li>
+                                                            <li><i class="bi bi-calendar3"></i> January 6, 2024</li>
+                                                          
+                                                        </ul>
+
+                                                        <h5 class="mt-3 mb-3">Introduction:</h5>
+                                                        <p>Creating a user interface (UI) that resonates with your audience is the key to a successful digital experience. In this guide, we'll walk you through some simple yet effective steps to enhance your UI and elevate user satisfaction.</p>
+                                                        <hr>
+                                                        <h5 class="mt-3 mb-3">Know Your Users:</h5>
+                                                        <p>Understanding your target audience is the first step towards a better UI. Conduct user research to identify their preferences, habits, and pain points. This knowledge will serve as the foundation for a user-friendly design that caters to their needs.</p>
+                                                        <hr>
+                                                        <h5 class="mt-3 mb-3">Prioritize Simplicity:</h5>
+                                                        <p>Less is often more when it comes to UI design. Avoid clutter and complexity by focusing on a clean, intuitive layout. Streamline navigation and ensure that users can accomplish tasks with minimal clicks. A simple interface reduces cognitive load, making it easier for users to engage with your platform.</p>
+                                                        <hr>
+                                                        <h5 class="mt-3 mb-3">Consistent Design Elements:</h5>
+                                                        <p>Maintain consistency across your UI elements, such as buttons, fonts, and colors. Consistency fosters familiarity, helping users navigate your platform effortlessly. A harmonious design also establishes a professional and polished look, contributing to a positive user perception.</p>
+                                                        <hr>
+                                                        <h5 class="mb-3 mt-3">Responsive Design:</h5>
+                                                        <p>In the era of diverse devices, a responsive UI is non-negotiable. Ensure your interface adapts seamlessly to various screen sizes and resolutions. A responsive design guarantees a consistent and enjoyable user experience across desktops, tablets, and smartphones.</p>
+                                                        <hr>
+                                                        <h5 class="mb-3 mt-3">Intuitive Navigation:</h5>
+                                                        <p>Effortless navigation is the backbone of a great UI. Organize content logically, and use clear labels for buttons and menus. Implement user-friendly navigation patterns, such as a straightforward menu structure and easily accessible search functionality. An intuitive navigation system enhances user satisfaction and encourages exploration.</p>
+                                                        <hr>
+                                                        <h5 class="mb-3 mt-3">Meaningful Visual Hierarchy:</h5>
+                                                        <p>Guide users through your interface with a thoughtful visual hierarchy. Use contrasting colors, font sizes, and spacing to emphasize important elements. By creating a hierarchy, you direct users' attention to key information and actions, making their journey through your platform more intuitive.</p>
+                                                        <hr>
+                                                        <h5 class="mt-3 mb-3">Engaging Microinteractions:</h5>
+                                                        <p>Microinteractions are subtle animations or feedback that occur in response to user actions. Incorporate engaging microinteractions to provide visual cues, acknowledge user input, and create a delightful user experience. These small details can significantly impact overall user satisfaction.</p>
+                                                        <hr>
+                                                        <h5 class="mt-3 mb-3">Conclusion:</h5>
+                                                        <p>Designing a better UI involves a strategic blend of user-centricity, simplicity, and visual appeal. By knowing your users, prioritizing simplicity, maintaining consistency, embracing responsiveness, ensuring intuitive navigation, establishing a meaningful visual hierarchy, and incorporating engaging microinteractions, you can create an exceptional user interface that leaves a lasting positive impression on your audience.</p>
+                                                      
+                                                        <div class="post-footer row">
+                                                            <div class="blog-tags col-lg-8 d-md-flex align-items-md-center">
+                                                                <h4>Tags:</h4>
+                                                                <ul class="tag-list list-inline">
+                                                                    <li class="list-inline-item"><a href="#">UI Design</a></li>
+                                                                    
+                                                                    <li class="list-inline-item"><a href="#">UI Application</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- .row -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="post-content">
+                                    <ul class="post-meta">
+                                        <li class="post-date">
+                                            <i class="pe-7s-clock"></i> January 6, 2024
+                                        </li>
+                                        <li class="post-cat">
+                                            <a href="#"><i class="pe-7s-folder"></i> User Interface</a>
+                                        </li>
+                                    </ul>
+                                    <h3><a href="#" data-bs-toggle="modal" data-bs-target="#blogModal5">Crafting an Exceptional User Interface</a></h3>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img class="img-fluid" src="image/blog/post-thumbnail-06.jpg" alt="post thumnail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-blog-1 elem-updown" src="image/design-elements/blog-element-1.png" alt="blog element 1">
+            <img class="de-blog-2 elem-updown" src="image/design-elements/blog-element-2.png" alt="blog element 2">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .blog-section -->
+
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section-block" id="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get in Touch</h2>
+                <p class="lead">
+                    Contact Me
+                </p>
+            </div>
+            <!-- .section-title -->
+
+            <div class="row contact-options">
+                <div class="col-lg-4 d-flex justify-content-xxl-center align-items-xl-center" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="icon-box"><i class="pe-7s-map-marker"></i></div>
+                    <div class="content-wrapper">
+                        <h4>Address</h4>
+                        <address>Odisha Cuttack</address>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-xxl-center align-items-xl-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="icon-box"><i class="pe-7s-call"></i></div>
+                    <div class="content-wrapper">
+                        <h4>Phone</h4>
+                        <a href="tel:7978701837">7978701837</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-xxl-center align-items-xl-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="icon-box"><i class="pe-7s-mail"></i></div>
+                    <div class="content-wrapper">
+                        <h4>Email</h4>
+                        <a href="mailto:alok965801@gmail.com">alok965801@gmail.com</a>
+                        <a href="mailto:aloksahooax@gmail.com">aloksahooax@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <!-- .row -->
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="map-wrapper" id="mapwrapper">
+                    </div>
+                </div>
+                <div class="col-lg-6 form-block" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">
+                    <h3>Write me a message</h3>
+                    <div class="form-message">
+                        <p></p>
+                    </div>
+                    <form class="row g-3" id="fungi-contact" action="process-form.php" method="post">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <label for="name" class="form-label visually-hidden">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name*" name="name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="input-group mb-3">
+                                <label for="email" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control mb-3" id="message" name="message" placeholder="Your message here*" required></textarea>
+                            <button type="submit" class="btn btn-main" name="submit">Send Message</button>
+                        </div>
+                    </form>
+                    <!-- .row -->
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+        <div class="design-elements">
+            <img class="de-contact-1 elem-updown" src="image/design-elements/contact-element-1.png" alt="contact element 1">
+            <img class="de-contact-2 elem-updown" src="image/design-elements/contact-element-2.png" alt="contact element 2">
+        </div>
+        <!-- .design-elements -->
+    </section>
+    <!-- .contact-section -->
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer" id="site-footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-10 text-center branding-block">
+                    <a class="footer-brand" href="#"><img src="image/alok-new.png" alt="Pori logo"></a>
+                    <p>
+                        Hello and welcome to my portfolio! I am a proficient Front-End Developer with expertise in WordPress, React, and Next.js. My passion lies in infusing creativity and precision into each project. I am dedicated to crafting seamless user experiences and upholding the highest standards of clean coding. Together, let's transform concepts into impeccably polished digital experiences!                    </p>
+                    <ul class="list-inline footer-social">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/alokkumar.sahoo.3344"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/aloksahooAX"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/sahooalokkumar/"><i class="fab fa-linkedin"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li> -->
+                        <li class="list-inline-item"><a href="https://www.instagram.com/call_me__lucifer_/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- .row -->
+            <div class="back-to-top"><a href="#site-header"><i class="bi bi-box-arrow-up"></i></a></div>
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <p>All rights reserved &copy; 2024 <strong>ALOK</strong></p>
+                </div>
+                <!-- <div class="col-md-6">
+                    <ul class="list-inline text-md-end">
+                        <li class="list-inline-item"><a href="#">Terms &amp; Condition</a></li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <!-- .footer-bottom -->
+        </div>
+        <!-- .container -->
+    </footer>
+    <!-- .site-footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.preloadinator.min.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/textition.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/gulpfile.min.js"></script>
 </body>
 
 </html>
