@@ -2668,11 +2668,15 @@ h6 {
     .site-footer .footer-social a {
         font-size: 21px;
     }
+    .hero-area .tech-tools span{width: auto !important; font-size: 23px;}
 }
 
 /* max-width: 360px */
 
 @media (max-width: 360px) {
+    .about-section .about-img-2{height: auto;}
+    .about-section .about-img-1{height: auto;}
+    .intro-section .item-wrapper{height: auto;}
     .block-title {
         font-size: 30px;
     }
