@@ -2126,6 +2126,8 @@ h6 {
         left: 1%;
         bottom: 8%;
     }
+    .intro-section .item-wrapper{padding: 38px;}
+    .service-section .content-wrapper{height: 537px;}
 }
 
 /* max-width: 1199px */
